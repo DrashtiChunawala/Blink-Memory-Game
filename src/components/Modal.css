@@ -1,0 +1,36 @@
+dialog{
+    box-sizing: border-box;
+    width: 35vw;
+    height: 35vh;
+    border: 0;
+    padding: 0;
+    border-radius: 1rem;
+
+    /* padding: 2rem 10rem; */
+    && .dialogModal{
+        box-sizing: border-box;
+        padding: 16px;
+        background-color: #BF3131;
+        /* background-color: #8C6A5D; */
+        /* background-color:red; */
+        color: #EAC696;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+            && p{
+                margin-top: 0.5rem;
+                font-size: 1.5rem;
+                font-weight: 500;
+            }
+            && h2{
+                margin-bottom: 0.5rem;
+                font-size:2rem;
+                color: #FFD4B2;
+            }
+        && button{
+            background-color: #EAC696;
+        }
+    }
+}
